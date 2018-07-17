@@ -1,0 +1,162 @@
+.App {
+  text-align: center;
+}
+
+.container{
+  max-width: 860px;
+}
+
+.imgPreview img {
+  height: 300px;
+}
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+/* post related css */
+body{
+    background-color: #FFF9F7;
+  }
+
+  /*.border
+  {
+    border:2px solid #36F;
+    position:relative;
+    z-index:10
+  }*/
+  .thumbnail{
+    border: none;
+  }
+  .container p{
+    font-size: 16px;
+    max-width: 660px;
+    line-height: 1.5em;
+    text-align: left;
+    color: #777;
+    margin: 0 auto 20px;
+    font-weight: 100;
+    font-family: 'AbeeZee',Helvetica,sans-serif;
+  }
+
+  .modi{
+    background-image: url('https://lh3.googleusercontent.com/-kY24yjLIPWk/WYNwxstQDSI/AAAAAAAAA08/sSFriJxLp-oMqacBgJvjXnkjfts-MAq7ACL0BGAYYCw/h300/2017-08-03.png');
+    display: block;
+    width: 300px;
+    height: 294px;
+    margin: 30px auto 15px;
+  }
+  .container h1{
+    font-weight: 900;
+    text-align: center;
+    margin: 25px 0 30px;
+    font-family: 'Merriweather',serif;
+  }
+  .container p{
+    ont-size: 16px;
+    max-width: 660px;
+    line-height: 1.5em;
+    text-align: left;
+    color: #777;
+    margin: 0 auto 20px;
+    font-weight: 100;
+    font-family: 'AbeeZee',Helvetica,sans-serif;
+  }
+  .container .twitter{
+    color: #65aaf1;
+    border: 2px solid #65aaf1;
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 14px;
+    display: inline-block;
+  }
+  .twitter:hover {
+    background-color: #65aaf1;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .container .email{
+    color: #a94444;
+    border: 2px solid #a94444;
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 50px;
+  }
+  .email:hover {
+    background-color: #a94444;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  /*.news-img{
+    background-image: url('https://www.jensenhughes.com/wp-content/uploads/2013/09/url.jpg');
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 45px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+  }*/
+  .container.news-timeline{
+    max-width: 860px;
+  }
+  .news-content {
+    width: 400px;
+    padding: 20px;
+    overflow: hidden;
+}
+  .news-content, .news-timeline img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 20px;
+  }
+  .ml-55{
+    margin-left: 55px;
+  }
+  .ml-20{
+    margin-left: 20px;
+  }
+  .new-title{
+    font-size: 24px;
+  }
+  .mt-15{
+    margin-top: 15px;
+  }
+  .mt-25{
+    margin-top: 25px;
+  }
+  .mt-50{
+    margin-top: 50px;
+  }
+  .mt-30{
+    margin-top: 30px;
+  }
+  .mr-100{
+    margin-right: 100px;
+  }
+  .ml-140{
+    margin-left: 140px;
+  }
+  .right{
+    float: right;
+  }
+  html, body {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+  p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: left;
+  }
